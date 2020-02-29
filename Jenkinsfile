@@ -16,12 +16,12 @@ pipeline {
          steps {
             echo 'Running api tests'
             sh 'AMBIENTE=hmg rspec -t smoke'
-            post {
-               always {
-                  junit 'logs/report.xml'
-               }
-            }  
-         } 
+         }
+         post {
+            always {
+               junit 'logs/report.xml'
+            }
+         }  
       }
       stage('UAT') {
          steps {
