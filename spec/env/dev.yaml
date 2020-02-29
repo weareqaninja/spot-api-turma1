@@ -1,0 +1,3 @@
+---
+base_uri: http://localhost:3001
+mongo_url: mongo://127.0.0.1:27017

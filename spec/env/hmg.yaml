@@ -1,0 +1,3 @@
+---
+base_uri: https://spotlab-api.herokuapp.com
+mongo_url: mongodb://qaninja:qaninja123@ds035664.mlab.com:35664/spotdb?retryWrites=false
