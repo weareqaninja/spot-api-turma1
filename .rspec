@@ -1,3 +1,4 @@
 --require spec_helper
 -fd
 --format html --out logs/report.html
+--format RspecJunitFormatter -o logs/report.xml

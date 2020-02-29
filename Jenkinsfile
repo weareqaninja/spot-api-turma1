@@ -15,7 +15,7 @@ pipeline {
       stage('Tests') {
          steps {
             echo 'Running api tests'
-            sh 'AMBIENTE=hmg rspec'
+            sh 'AMBIENTE=hmg rspec -t smoke'
          } 
       }
       stage('UAT') {

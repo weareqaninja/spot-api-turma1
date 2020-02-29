@@ -1,3 +1,4 @@
 logs/*.log
 logs/*.html
+logs/*.xml
 Gemfile.lock

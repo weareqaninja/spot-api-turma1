@@ -1,6 +1,6 @@
 
-describe "POST /sessions" do
-    context "when send email", :smoke do
+describe "POST /sessions", :smoke do
+    context "when send email" do
         before(:all) do
             # aqui temos uma instancia anomina
             @result = SpotApi.new.session({email: "fernando@qaninja.io"})
