@@ -11,7 +11,7 @@ describe "POST /sessions", :smoke do
         end
 
         it "should return session id" do
-            expect(@result.parsed_response["_id"].length).to eql 24
+            expect(@result.parsed_response["_id"].length).to eql 25
         end
     end
 
